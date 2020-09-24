@@ -9,19 +9,19 @@
     <Grid Background="#FF6B1E87">
         <Button Name="Rock" Width="150" Height="100" Click="OnImageButtonClick1" Margin="55,167,587,152">
             <DockPanel >
-                <Image Source="C:\Users\Zako\source\repos\Rock Paper Scissors Game\Rock Paper Scissors Game\Icons\Rock.png"  Height="76" Width="94"/>
+                <Image Source="Icons\Rock.png"  Height="76" Width="94"/>
             </DockPanel>
         </Button>
 
 
         <Button Name="Paper" Width="150" Height="100" Click="OnImageButtonClick2" Margin="313,167,329,152">
             <DockPanel >
-                <Image Source="C:\Users\Zako\source\repos\Rock Paper Scissors Game\Rock Paper Scissors Game\Icons\Paper.png" RenderTransformOrigin="0.673,-1.389" Height="76" Width="94"/>
+                <Image Source="Icons\Paper.png" RenderTransformOrigin="0.673,-1.389" Height="76" Width="94"/>
             </DockPanel>
         </Button>
         <Button Name="Scissors" Width="150" Height="100" Click="OnImageButtonClick3" Margin="580,167,62,152">
             <DockPanel >
-                <Image Source="C:\Users\Zako\source\repos\Rock Paper Scissors Game\Rock Paper Scissors Game\Icons\Scissors.png" RenderTransformOrigin="0.673,-1.389" Height="76" Width="94"/>
+                <Image Source="Icons\Scissors.png" RenderTransformOrigin="0.673,-1.389" Height="76" Width="94"/>
             </DockPanel>
         </Button>
         <Label Content="Please Select Either Rock , Paper or Scissors" HorizontalAlignment="Left" Margin="55,20,0,0" VerticalAlignment="Top" Width="692" FontFamily="/Rock Paper Scissors Game;component/Fonts/#Impact Label" FontSize="25" Height="52" RenderTransformOrigin="0.553,0.485"/>
